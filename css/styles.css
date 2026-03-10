@@ -3808,6 +3808,29 @@ img.u-pull-left {
     right            : 0;
 }
 
+.demo-block__bg-left,
+.demo-block__bg-right {
+    pointer-events      : none;
+    background-position : center;
+    background-repeat   : no-repeat;
+    background-size     : cover;
+    position            : absolute;
+    top                 : 0;
+    bottom              : 0;
+}
+
+.demo-block__bg-left {
+    background-image : url(../images/demo-bg-01.jpg);
+    left             : 0;
+    right            : 50%;
+}
+
+.demo-block__bg-right {
+    background-image : url(../images/demo-bg-02.jpg);
+    left             : 50%;
+    right            : 0;
+}
+
 .video-block__content {
     position : relative;
 }
